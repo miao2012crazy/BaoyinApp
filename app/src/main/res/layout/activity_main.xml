@@ -4,31 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:fitsSystemWindows="true"
-    android:background="#fff"
     tools:context="com.xialan.baoyin.MainActivity">
-    <include layout="@layout/layout_title_bar" />
-    <ScrollView
+
+    <com.xialan.baoyin.ui.NoPreloadViewPager
+        android:id="@+id/view_pager"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <com.jude.rollviewpager.RollPagerView
-                xmlns:app="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/roll_view_pager"
-                app:rollviewpager_play_delay="3000"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/dp_150" />
-            <include layout="@layout/layout_main_01"/>
-            <include layout="@layout/layout_main_02"/>
-            <include layout="@layout/layout_main_03"/>
-        </LinearLayout>
-    </ScrollView>
+    </com.xialan.baoyin.ui.NoPreloadViewPager>
+
     <TextView
-        android:background="#fefefe"
+        android:background="#f0f0f0"
         android:layout_width="match_parent"
         android:layout_height="1dp" />
     <include layout="@layout/layout_bottom"/>

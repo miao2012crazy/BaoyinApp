@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/dp_48"
+    android:layout_height="@dimen/dp_40"
     android:layout_marginTop="@dimen/dp_4"
     android:layout_marginBottom="@dimen/dp_4"
     android:orientation="horizontal">
 
     <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/ll_return"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
@@ -14,11 +16,12 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="@dimen/dp_28"
-            android:layout_height="@dimen/dp_28"
+            android:layout_width="@dimen/dp_25"
+            android:layout_height="@dimen/dp_25"
             android:src="@mipmap/ic_launcher" />
 
         <TextView
+            android:textColor="#f00"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
@@ -27,6 +30,8 @@
     </LinearLayout>
 
     <LinearLayout
+
+        android:id="@+id/ll_home"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
@@ -34,19 +39,22 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="@dimen/dp_30"
-            android:layout_height="@dimen/dp_30"
-            android:src="@mipmap/ic_launcher" />
+            android:layout_width="@dimen/dp_25"
+            android:layout_height="@dimen/dp_25"
+            android:src="@mipmap/sy" />
 
         <TextView
+            android:textColor="#f00"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:textSize="@dimen/sp_12"
             android:layout_weight="1"
             android:gravity="center"
             android:text="首页" />
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/ll_user_select"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
@@ -54,11 +62,13 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="@dimen/dp_30"
-            android:layout_height="@dimen/dp_30"
-            android:src="@mipmap/ic_launcher" />
+            android:layout_width="@dimen/dp_25"
+            android:layout_height="@dimen/dp_25"
+            android:src="@mipmap/person" />
 
         <TextView
+            android:textColor="#f00"
+            android:textSize="@dimen/sp_12"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
@@ -67,6 +77,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/ll_jfselect"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
@@ -74,11 +85,13 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="@dimen/dp_30"
-            android:layout_height="@dimen/dp_30"
-            android:src="@mipmap/ic_launcher" />
+            android:layout_width="@dimen/dp_25"
+            android:layout_height="@dimen/dp_25"
+            android:src="@mipmap/jifen" />
 
         <TextView
+            android:textColor="#f00"
+            android:textSize="@dimen/sp_12"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"

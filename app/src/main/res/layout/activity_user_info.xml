@@ -37,10 +37,12 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_44">
             <ImageView
+
                 android:layout_marginStart="@dimen/dp_6"
                 android:layout_centerVertical="true"
-                android:layout_width="@dimen/dp_30"
-                android:layout_height="@dimen/dp_30"
+                android:src="@mipmap/user_1"
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_20"
                 android:id="@+id/imageView" />
             <TextView
                 android:textSize="@dimen/sp_12"
@@ -55,9 +57,9 @@
                 android:layout_centerVertical="true"
                 android:layout_marginEnd="@dimen/dp_10"
                 android:layout_alignParentEnd="true"
-                android:src="@mipmap/ic_launcher"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:src="@mipmap/ic_right"
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_20"/>
         </RelativeLayout>
 
         <RelativeLayout
@@ -69,8 +71,9 @@
             <ImageView
                 android:layout_marginStart="@dimen/dp_6"
                 android:layout_centerVertical="true"
-                android:layout_width="@dimen/dp_30"
-                android:layout_height="@dimen/dp_30"
+                android:src="@mipmap/user_2"
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_20"
                 android:id="@+id/imageView1" />
             <TextView
                 android:textSize="@dimen/sp_12"
@@ -85,9 +88,9 @@
                 android:layout_centerVertical="true"
                 android:layout_marginEnd="@dimen/dp_10"
                 android:layout_alignParentEnd="true"
-                android:src="@mipmap/ic_launcher"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:src="@mipmap/ic_right"
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_20"/>
         </RelativeLayout>
 
         <RelativeLayout
@@ -99,8 +102,9 @@
             <ImageView
                 android:layout_marginStart="@dimen/dp_6"
                 android:layout_centerVertical="true"
-                android:layout_width="@dimen/dp_30"
-                android:layout_height="@dimen/dp_30"
+                android:src="@mipmap/user_3"
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_20"
                 android:id="@+id/imageView2" />
             <TextView
                 android:textSize="@dimen/sp_12"
@@ -115,9 +119,9 @@
                 android:layout_centerVertical="true"
                 android:layout_marginEnd="@dimen/dp_10"
                 android:layout_alignParentEnd="true"
-                android:src="@mipmap/ic_launcher"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:src="@mipmap/ic_right"
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_20" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -129,8 +133,9 @@
             <ImageView
                 android:layout_marginStart="@dimen/dp_6"
                 android:layout_centerVertical="true"
-                android:layout_width="@dimen/dp_30"
-                android:layout_height="@dimen/dp_30"
+                android:src="@mipmap/user_4"
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_20"
                 android:id="@+id/imageView3" />
             <TextView
                 android:textSize="@dimen/sp_12"
@@ -145,9 +150,9 @@
                 android:layout_centerVertical="true"
                 android:layout_marginEnd="@dimen/dp_10"
                 android:layout_alignParentEnd="true"
-                android:src="@mipmap/ic_launcher"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:src="@mipmap/ic_right"
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_20" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -159,8 +164,9 @@
             <ImageView
                 android:layout_marginStart="@dimen/dp_6"
                 android:layout_centerVertical="true"
-                android:layout_width="@dimen/dp_30"
-                android:layout_height="@dimen/dp_30"
+                android:src="@mipmap/user_5"
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_20"
                 android:id="@+id/imageView4" />
             <TextView
                 android:textSize="@dimen/sp_12"
@@ -175,9 +181,9 @@
                 android:layout_centerVertical="true"
                 android:layout_marginEnd="@dimen/dp_10"
                 android:layout_alignParentEnd="true"
-                android:src="@mipmap/ic_launcher"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:src="@mipmap/ic_right"
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_20"/>
         </RelativeLayout>
 
         <RelativeLayout
@@ -189,8 +195,9 @@
             <ImageView
                 android:layout_marginStart="@dimen/dp_6"
                 android:layout_centerVertical="true"
-                android:layout_width="@dimen/dp_30"
-                android:layout_height="@dimen/dp_30"
+                android:src="@mipmap/user_6"
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_20"
                 android:id="@+id/imageView5" />
             <TextView
                 android:textSize="@dimen/sp_12"
@@ -205,9 +212,9 @@
                 android:layout_centerVertical="true"
                 android:layout_marginEnd="@dimen/dp_10"
                 android:layout_alignParentEnd="true"
-                android:src="@mipmap/ic_launcher"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:src="@mipmap/ic_right"
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_20" />
         </RelativeLayout>
 
 
@@ -229,9 +236,9 @@
                 android:layout_centerVertical="true"
                 android:layout_marginEnd="@dimen/dp_10"
                 android:layout_alignParentEnd="true"
-                android:src="@mipmap/ic_launcher"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:src="@mipmap/ic_right"
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_20" />
         </RelativeLayout>
 
 
@@ -253,9 +260,9 @@
                 android:layout_centerVertical="true"
                 android:layout_marginEnd="@dimen/dp_10"
                 android:layout_alignParentEnd="true"
-                android:src="@mipmap/ic_launcher"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:src="@mipmap/ic_right"
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_20" />
         </RelativeLayout>
 
     </LinearLayout>

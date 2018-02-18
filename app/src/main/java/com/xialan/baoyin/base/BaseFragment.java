@@ -1,5 +1,6 @@
 package com.xialan.baoyin.base;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -103,5 +104,8 @@ public abstract class BaseFragment<V,P extends BasePresenter<V>> extends Fragmen
             customProgressBar.dismiss();
         }
     }
-
+    public void startActivity_base(Class clazz){
+        Intent intent = new Intent(getActivity(), clazz);
+        startActivity(intent);
+    }
 }
